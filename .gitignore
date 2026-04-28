@@ -1,0 +1,34 @@
+# 凭证 / 用户私有
+.env
+.env.local
+.env.*.local
+
+# 备份
+*.bak
+*.bak-*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# 模型 / 输出（voice-bridge 会下 ~1GB）
+2-voice-bridge/models/
+2-voice-bridge/logs/
+3-skill-novelai/outputs/
+3-skill-novelai/workspace/
+novelai-output/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# 评测 / 测试产物（不传）
+3-skill-novelai/evals/
+2-voice-bridge/test_load.py

@@ -1,0 +1,9 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+httpx>=0.27
+python-multipart>=0.0.9
+# SenseVoice ASR (FunASR runs the model locally; first run downloads ~1GB to ./models/)
+funasr>=1.1.5
+torch>=2.0
+torchaudio>=2.0
+modelscope>=1.13

@@ -1,0 +1,10 @@
+{
+  "_comment": "把 mcpServers.voice-bridge 这一段合并到每个 bot 的 .mcp.json。VOICE_BRIDGE_DIR 是你装 voice-bridge 的绝对路径（JSON 不支持 ~/，必须写绝对路径）。",
+  "mcpServers": {
+    "voice-bridge": {
+      "command": "${VOICE_BRIDGE_DIR}/.venv/bin/python",
+      "args": ["${VOICE_BRIDGE_DIR}/server.py"],
+      "env": {}
+    }
+  }
+}

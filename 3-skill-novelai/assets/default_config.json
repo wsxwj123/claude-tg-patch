@@ -1,0 +1,33 @@
+{
+  "provider": "novelai",
+  "model": "nai-diffusion-4-5-full",
+  "width": 1024,
+  "height": 1024,
+  "steps": 28,
+  "cfg_scale": 5,
+  "sampler": "k_euler_ancestral",
+  "seed": -1,
+  "prompt_max_tokens": 512,
+  "nsfw_prefix": "nsfw",
+  "positive_prefix": "5::best quality, masterpiece, very aesthetic, detailed, absurdres::, year 2025",
+  "negative_prefix": "lowres, worst quality, low quality, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, watermark, signature, jpeg artifacts, blurry, cropped, mutation, deformed, extra limbs, fused fingers, malformed hands, ugly, error, text, logo, username, artist name, scan artifacts, monochrome, grayscale, simple_background, 2koma, border",
+  "novelai_parameters": {
+    "negative_prompt": "",
+    "ucPreset": 0,
+    "sm": false,
+    "sm_dyn": false,
+    "quality_toggle": true,
+    "autoSmea": false,
+    "dynamic_thresholding": false,
+    "legacy": false,
+    "legacy_v3_extend": false,
+    "add_original_image": true,
+    "controlnet_strength": 1.0,
+    "cfg_rescale": 0.0,
+    "noise_schedule": "karras",
+    "prefer_brownian": true,
+    "normalize_reference_strength_multiple": false,
+    "strength": 0.7,
+    "skip_cfg_above_sigma": null
+  }
+}
