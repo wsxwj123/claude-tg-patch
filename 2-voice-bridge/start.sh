@@ -5,9 +5,10 @@
 set -e
 cd "$(dirname "$0")"
 
+mkdir -p logs
 PID_FILE="logs/http_server.pid"
 LOG_FILE="logs/http_server.out"
-PORT=7788
+PORT="${VOICE_BRIDGE_PORT:-7788}"
 
 cmd="${1:-start}"
 
